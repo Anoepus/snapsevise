@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="da" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+
+<main class="main">
+    <div class="snapsevise">
+        <h1 class="header">Haps haps haps, nu skal vi ha snaps,</h1>
+        <h1 th:text="${snapsevise.getSnapseviseRim()}" class="verse">Snapsevise</h1>
+        <h1 class="header">Haps haps haps, nu skal vi ha snaps!</h1>
+    </div>
+    <!-- Reloader siden med ny snapsevise -->
+    <form action="/" method="get">
+        <button type="submit" class="knap">Ny snapsevise</button>
+    </form>
+</main>
+
+</body>
+</html>

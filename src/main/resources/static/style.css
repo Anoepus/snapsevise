@@ -1,0 +1,68 @@
+/* Generel reset og font */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('photo-collage.png-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main {
+    background-color: #ffffff;
+    padding: 40px 60px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Container for snapsevise */
+.snapsevise {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Top- og bundlinjen (Haps haps haps) */
+.snapsevise .header {
+    font-size: 1.8rem;       /* lidt mindre end selve snapsevisen */
+    color: #555555;          /* diskret grå */
+    margin: 10px 0;
+}
+
+/* Midterste linje: selve snapsevisen */
+.snapsevise h1.verse {
+    font-size: 2.4rem;       /* større for at fremhæve */
+    color: #F1C40F;          /* festlig rød/pink */
+    font-weight: bold;
+    margin: 15px 0;
+    line-height: 1.4;
+}
+
+/* Knappen */
+.knap {
+    background-color: #F1C40F;
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.knap:hover {
+    background-color: #E6BE8A;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.knap:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
