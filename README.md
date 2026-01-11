@@ -1,1 +1,2 @@
 # snapsevise
+Lille snapsevise webapp
